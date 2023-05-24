@@ -57,15 +57,15 @@ while True:
                 if continu == 1:
                     Efec = int(input("¿Con cuanto dinero desea pagar? \n"))
                     Vuelto = Efec - TotalF
-                    print(f"\t  PizzasDuoc\nPIZZA TRADICIONAL\t{Tradicional}\nPIZZA PEPERONI\t\t{Peperoni}\nALL CARNES\t\t{All_Carnes}\nSUB TOTAL\t\t{Total}\nDESCUENTO\t\t{SubTotal}\nTOTAL APAGAR\t\t{TotalF}\n\nFORMA DE PAGO\t\tEFECTIVO\nMONTO DE PAGO\t\t{Efec}\n\nSU VUELTO ES:{Vuelto}\n\n¡GRACIAS POR SU COMPRA!")
+                    #print(f"\t  PizzasDuoc\nPIZZA TRADICIONAL\t{Tradicional}\nPIZZA PEPERONI\t\t{Peperoni}\nALL CARNES\t\t{All_Carnes}\nSUB TOTAL\t\t{Total}\nDESCUENTO\t\t{SubTotal}\nTOTAL APAGAR\t\t{TotalF}\n\nFORMA DE PAGO\t\tEFECTIVO\nMONTO DE PAGO\t\t{Efec}\n\nSU VUELTO ES:{Vuelto}\n\n¡GRACIAS POR SU COMPRA!")
                     sw=0
 
-                    '''print("\t  PizzasDuoc\n")
+                    print("\t  PizzasDuoc\n")
                     print("-----------------------\n")
                     print(f"PIZZA TRADICIONAL\t{Tradicional}")
                     print(f"PIZZA PEPERONI\t\t{Peperoni}")
                     print(f"ALL CARNES\t\t{All_Carnes}")
-                    print('SUB TOTAL\t\t{:,.f0}'.format(Total))
+                    print('SUB TOTAL\t\t{:,.0f}'.format(Total))
                     print(f"DESCUENTO\t\t{SubTotal}")
                     print("-----------------------\n")
                     print(f"TOTAL APAGAR\t\t{TotalF}\n")
@@ -73,22 +73,22 @@ while True:
                     print(f"MONTO DE PAGO\t\t{Efec}")
                     print(f"SU VUELTO ES:{Vuelto}\n")
                     print("-----------------------\n")
-                    print("¡GRACIAS POR SU COMPRA!")'''
+                    print("¡GRACIAS POR SU COMPRA!")
                     
                 elif continu == 2:
-                    print(f"\t  PizzasDuoc\nPIZZA TRADICIONAL\t{Tradicional}\nPIZZA PEPERONI\t\t{Peperoni}\nALL CARNES\t\t{All_Carnes}\nSUB TOTAL\t\t{Total}\nDESCUENTO\t\t{SubTotal}\nTOTAL APAGAR\t\t{TotalF}\n\nFORMA DE PAGO\t\tTARJETA\n\n¡GRACIAS POR SU COMPRA!")
-                    '''print("\t  PizzasDuoc\n")
+                    #print(f"\t  PizzasDuoc\nPIZZA TRADICIONAL\t{Tradicional}\nPIZZA PEPERONI\t\t{Peperoni}\nALL CARNES\t\t{All_Carnes}\nSUB TOTAL\t\t{Total}\nDESCUENTO\t\t{SubTotal}\nTOTAL APAGAR\t\t{TotalF}\n\nFORMA DE PAGO\t\tTARJETA\n\n¡GRACIAS POR SU COMPRA!")
+                    print("\t  PizzasDuoc\n")
                     print("-----------------------\n")
                     print(f"PIZZA TRADICIONAL\t{Tradicional})")
                     print(f"PIZZA PEPERONI\t\t{Peperoni}")
                     print(f"ALL CARNES\t\t{All_Carnes}")
-                    print('SUB TOTAL\t\t{:,.f0}'.format(Total))
+                    print('SUB TOTAL\t\t{:,.0f}'.format(Total))
                     print(f"DESCUENTO\t\t{SubTotal}")
                     print("-----------------------\n")
                     print(f"TOTAL APAGAR\t\t{TotalF}\n")
                     print(f"FORMA DE PAGO\t\tTARJETA\n")
                     print("-----------------------\n")
-                    print("¡GRACIAS POR SU COMPRA!")'''
+                    print("¡GRACIAS POR SU COMPRA!")
                     sw=0
         except ValueError:
             pass
