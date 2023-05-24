@@ -10,6 +10,10 @@ while True:
     SubTotal = 0
     ContT = 0
 
+    
+    
+    
+    
     while True:
         try:
             Tradicional = int(input("¿Cuantas pizzas Tradicional a un valor de $12.000 quiere? \n"))
